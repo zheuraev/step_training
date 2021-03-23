@@ -4,6 +4,9 @@ def sum_func(a: int, b: int) -> int:
 def sub_func(a: int, b: int) -> int:
     return a - b
 
+def mul_func(a: int, b: int) -> int:
+    return a * b
+
 
 
 def main():
@@ -16,6 +19,9 @@ def main():
         print(sum_func(a, b))
     elif operator == '-':
         print(sum_func(a, b))
+    elif operator == '*':
+        print(mul_func(a, b))
+
 
 if __name__ == '__main__':
     main()
