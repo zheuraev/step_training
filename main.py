@@ -1,6 +1,9 @@
 def sum_func(a: int, b: int) -> int:
     return a + b
 
+def sub_func(a: int, b: int) -> int:
+    return a - b
+
 
 
 def main():
@@ -10,6 +13,8 @@ def main():
     b = int(input('Введите второе число'))
 
     if operator == '+':
+        print(sum_func(a, b))
+    elif operator == '-':
         print(sum_func(a, b))
 
 if __name__ == '__main__':
