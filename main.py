@@ -10,6 +10,7 @@ def mul_func(a: int, b: int) -> int:
 
 
 def main():
+    print('hello world')
 
     print('Такс, че тут кого, посмотри как робишь? попытка вторая')
 
